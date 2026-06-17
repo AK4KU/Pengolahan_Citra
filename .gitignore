@@ -1,0 +1,32 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# Python Cache & Caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.streamlit/
+.vscode/
+.idea/
+
+# Large Files, Models & Temp Data
+data/raw/*
+data/sessions/*
+data/exports/*
+dataset/
+dataset_roboflow/
+runs/
+*.mp4
+*.avi
+*.mkv
+*.mov
+*.pt
+
+# OS Temp Files
+Thumbs.db
+ehthumbs.db
+Desktop.ini

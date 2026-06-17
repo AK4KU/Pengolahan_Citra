@@ -1,0 +1,22 @@
+# FPS Aim Analyzer - YOLO Dataset Configuration
+# Place this file in your dataset root directory
+
+path: ./dataset
+train: images/train
+val: images/val
+
+names:
+  0: crosshair
+  1: enemy_head
+  2: enemy_body
+  3: target
+
+# Dataset Statistics (update after annotation):
+# - Total images: 0
+# - Train images: 0
+# - Val images: 0
+#
+# Annotation Format: YOLO
+# Each .txt label file contains lines of:
+#   class_id x_center y_center width height
+# Where all values except class_id are normalized to [0, 1]
